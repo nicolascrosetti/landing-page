@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+li{
+    list-style-type: none;
+}
+header{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2932;
+}
+
+header ul{
+    font-size: 20px;
+    display: flex;
+    gap: 21px;
+}
+
+.section{
+    display: flex;
+    gap: 55px;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    gap: 55px;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    flex: 1.2;
+    width: 500px;
+    height: 200px;
+}
+
+h1,h2,h4,h5{
+    margin: 0px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border-radius: 13%;
+    border: 2px solid white;
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: blue solid 1px;
+    border-radius: 15%;
+}
+
+#first-section{
+    padding: 100px;
+    padding-left: 200px;
+    background-color: #1F2932;
+}
+
+#first-section div{
+    flex: 1;
+    color: white;
+    font-size: 33px;
+    font-weight: bolder;
+}
+
+#first-section div p{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#second-section{
+    margin-top: 35px;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 35px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#second-section ul{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#third-section{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 20%;
+    padding-left: 20%;
+    background-color: #E5E7EB;
+    font-size: 32px;
+    gap: 1px;
+}
+
+#third-section div{
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+#third-section p{
+    margin: 0;
+}
+
+#fourth-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 55px;
+    background-color: blue;
+    color: white;
+    border-radius: 2%;
+    justify-content: space-around;
+}
+
+#fourth-section div{
+    gap: 0px;
+    font-size: 25px;
+}
+
+#fourth-section div p{
+    margin: 0;
+    font-size: 18px;
+}
+
+footer{
+    display: flex;
+    background-color: #1F2932;
+    margin: 0;
+    padding: 1.5%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
